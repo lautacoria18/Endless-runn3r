@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368207444}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: 14.1821}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 1.2934518, y: 1.2934518, z: 5.4424567}
   m_Children: []
   m_Father: {fileID: 0}
@@ -520,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea7c09d5823fed64d86e8a709fb29a1d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.71
+      value: -0.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ea7c09d5823fed64d86e8a709fb29a1d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -685,9 +685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6130a61fca47dac4b8f609883321b4c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 12
   rb: {fileID: 1800657727}
-  jumpForce: 5
+  jumpForce: 8
   canJump: 0
   CapsuleCol: {fileID: 0}
 --- !u!1 &1903879318
@@ -708,7 +708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1903879319
 BoxCollider:
   m_ObjectHideFlags: 0

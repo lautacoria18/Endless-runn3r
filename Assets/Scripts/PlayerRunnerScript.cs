@@ -6,7 +6,7 @@ public class PlayerRunnerScript : MonoBehaviour
 {
 
     private Animator anim;
-    public float speed = 5;
+    public float speed = 10;
     public Rigidbody rb;
 
     float horizontalInput;
@@ -23,6 +23,8 @@ public class PlayerRunnerScript : MonoBehaviour
         anim = GetComponent<Animator>();
 
         CapsuleCol = GetComponent<CapsuleCollider>();
+
+        StartCoroutine(addVelocity());
     }
 
     void FixedUpdate() {
@@ -31,7 +33,12 @@ public class PlayerRunnerScript : MonoBehaviour
         Vector3 horizontalMove = transform.right * horizontalInput * speed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + forwardMove + horizontalMove);
 
+        if (rb.position.y < -2f)
+        {
 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        }
 
     }
 
@@ -91,4 +98,13 @@ public class PlayerRunnerScript : MonoBehaviour
         }
 
     }
+    private IEnumerator addVelocity()
+    {
+        
+            yield return new WaitForSeconds(5);
+        //Vector3 forwardMove = transform.forward * (speed+5f) * Time.fixedDeltaTime;
+        speed += 1f;
+        StartCoroutine(addVelocity());
+    }
+
 }
