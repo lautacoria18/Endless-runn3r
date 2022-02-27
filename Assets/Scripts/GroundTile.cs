@@ -11,6 +11,7 @@ public class GroundTile : MonoBehaviour
     {
         groundSpawner = GameObject.FindObjectOfType<GroundSpawner>();
         SpawnObstacle();
+        SpawnCans();
     }
 
     private void OnTriggerExit(Collider other) {
@@ -36,5 +37,35 @@ public class GroundTile : MonoBehaviour
 
         Instantiate(obstaclePrefab, spawnPoint.position, Quaternion.identity, transform);
 
+    }
+
+
+    public GameObject lata;
+
+    void SpawnCans() {
+
+        int cansToSpawn = 1;
+        for (int i = 0; i < cansToSpawn; i++) {
+
+            GameObject temp = Instantiate(lata, transform);
+            temp.transform.position = GetRandomPointInCollider(GetComponent<Collider>());
+        }
+    }
+
+    Vector3 GetRandomPointInCollider(Collider col) {
+
+        Vector3 point = new Vector3(
+            Random.Range(col.bounds.min.x, col.bounds.max.x),
+
+            Random.Range(col.bounds.min.y, col.bounds.max.y),
+
+            Random.Range(col.bounds.min.z, col.bounds.max.z)
+            );
+        if (point != col.ClosestPoint(point)) {
+            point = GetRandomPointInCollider(col);
+        }
+
+        point.y = 1;
+        return point;
     }
 }

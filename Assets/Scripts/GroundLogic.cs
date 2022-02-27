@@ -19,11 +19,16 @@ public class GroundLogic : MonoBehaviour
     }
 
 
-
-
-    private void OnTriggerStay(Collider other) {
-
-        player.canJump = true;
+    private void OnTriggerStay(Collider col) {
+        if (col.gameObject.tag == "Can") {
+            
+            player.canJump = false;
+            
+        }
+        else
+        {
+            player.canJump = true;
+        }
     }
 
     private void OnTriggerExit(Collider other) {

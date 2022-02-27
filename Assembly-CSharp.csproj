@@ -55,10 +55,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerRunnerScript.cs" />
     <Compile Include="Assets\Scripts\GroundLogic.cs" />
-    <Compile Include="Assets\Scripts\GroundSpawner.cs" />
+    <Compile Include="Assets\Scripts\PlayerRunnerScript.cs" />
     <Compile Include="Assets\Scripts\GroundTile.cs" />
+    <Compile Include="Assets\Scripts\GroundSpawner.cs" />
+    <Compile Include="Assets\Scripts\LataScript.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

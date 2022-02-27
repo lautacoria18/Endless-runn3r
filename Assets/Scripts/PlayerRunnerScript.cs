@@ -7,6 +7,7 @@ public class PlayerRunnerScript : MonoBehaviour
 
     private Animator anim;
     public float speed = 10;
+    public float speedVertical;
     public Rigidbody rb;
 
     float horizontalInput;
@@ -29,7 +30,7 @@ public class PlayerRunnerScript : MonoBehaviour
 
     void FixedUpdate() {
 
-        Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
+        Vector3 forwardMove = transform.forward * speedVertical * Time.fixedDeltaTime;
         Vector3 horizontalMove = transform.right * horizontalInput * speed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + forwardMove + horizontalMove);
 
@@ -95,15 +96,20 @@ public class PlayerRunnerScript : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 break;
 
+            
         }
+       
+  
 
     }
+
+
     private IEnumerator addVelocity()
     {
         
             yield return new WaitForSeconds(5);
         //Vector3 forwardMove = transform.forward * (speed+5f) * Time.fixedDeltaTime;
-        speed += 1f;
+        speedVertical += 1f;
         StartCoroutine(addVelocity());
     }
 
