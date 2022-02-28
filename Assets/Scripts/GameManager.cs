@@ -7,8 +7,10 @@ public class GameManager : MonoBehaviour
 
     public int pesos;
     public static GameManager inst;
+    public int maxScore;
 
     public Text scoreText;
+    public Text maxScoreText;
 
     public void IncrementScore() {
 
@@ -24,12 +26,19 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        maxScore = PlayerPrefs.GetInt("maxScore");
+        maxScoreText.text = maxScore.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (pesos >= maxScore) {
+
+            maxScore = pesos;
+            PlayerPrefs.SetInt("maxScore", maxScore);
+            maxScoreText.text = PlayerPrefs.GetInt("maxScore").ToString();
+        }
+   
     }
 }
