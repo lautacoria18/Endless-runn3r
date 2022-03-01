@@ -24,10 +24,16 @@ public class PlayerRunnerScript : MonoBehaviour
     public static float leftSide = -4.65f;
     public static float rightSide = 4.65f;
 
-    
 
 
 
+    void Awake() {
+
+        Screen.SetResolution(720, 1280, true);
+        Application.targetFrameRate = 60;
+        
+
+    }
 
     void Start() {
 
@@ -74,15 +80,6 @@ public class PlayerRunnerScript : MonoBehaviour
 
         }
 
-        int i = 0;
-        //loop over every touch found
-        
-
-      
-
-
-
-
     }
 
     // Update is called once per frame
@@ -114,15 +111,6 @@ public class PlayerRunnerScript : MonoBehaviour
 
             fallingDown();
         }
-
-
-       
-
-
-
-
-        
-
 
     }
     public void StopDash() {

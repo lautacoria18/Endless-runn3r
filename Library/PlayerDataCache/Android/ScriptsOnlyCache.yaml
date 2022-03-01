@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - ColorScript
     - GameManager
     - GameOverScript
     - GroundLogic
@@ -94,37 +95,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2316}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2430}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 2472}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2596}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2864}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 2972}
+      Script: {instanceID: 2866}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 2974}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 3000}
     - Class: 114
-      Script: {instanceID: 3108}
+      Script: {instanceID: 3088}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3110}
     - Class: 114
-      Script: {instanceID: 3634}
+      Script: {instanceID: 3396}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 3636}
     - Class: 114
-      Script: {instanceID: 3818}
+      Script: {instanceID: 3696}
     - Class: 114
-      Script: {instanceID: 3904}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 4082}
+      Script: {instanceID: 3906}
+    - Class: 114
+      Script: {instanceID: 4084}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -135,9 +138,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
-    - Class: 193
-      Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -268,6 +273,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 0c2c9ffb48b3e9d6f15486181508e75b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColorScript
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -637,4 +648,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Lautaro/Desktop/end/end.apk
+  playerPath: C:/Users/Lautaro/Desktop/end/end2.apk
