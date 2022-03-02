@@ -130,7 +130,7 @@
 72-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:68
 73            android:name="unity.build-id"
 73-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-42
-74            android:value="a244c5b0-5bac-49d2-984c-395ca5ac4b07" />
+74            android:value="64d736ba-4050-46f9-803d-84b80821aa23" />
 74-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-65
 75    </application>
 76
