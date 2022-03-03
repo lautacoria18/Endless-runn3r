@@ -55,20 +55,22 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\MobileInput.cs" />
+    <Compile Include="Assets\Scripts\MusicScript.cs" />
+    <Compile Include="Assets\TypeOut\Scripts\TypeOutScript.cs" />
     <Compile Include="Assets\Scripts\ColorScript.cs" />
     <Compile Include="Assets\Scripts\GroundLogic.cs" />
+    <Compile Include="Assets\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerRunnerScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PauseScript.cs" />
     <Compile Include="Assets\Scripts\LataScript.cs" />
     <Compile Include="Assets\Scripts\GameOverScript.cs" />
+    <Compile Include="Assets\TypeOut\Scripts\GUIScript.cs" />
     <Compile Include="Assets\Scripts\GroundTile.cs" />
     <Compile Include="Assets\Scripts\GroundSpawner.cs" />
-    <Compile Include="Assets\Scripts\MainMenuScript.cs" />
-    <Compile Include="Assets\Scripts\ParticleMenu.cs" />
-    <Compile Include="Assets\TypeOut\Scripts\GUIScript.cs" />
-    <Compile Include="Assets\TypeOut\Scripts\TypeOutScript.cs" />
+    <Compile Include="Assets\Scripts\AdsManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -684,6 +686,15 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AdsManager
     - CameraScript
     - ColorScript
     - GameManager
@@ -11,6 +12,7 @@ ScriptsOnlyBuild:
     - LataScript
     - MainMenuScript
     - MobileInput
+    - MusicScript
     - ParticleMenu
     - PauseScript
     - PlayerRunnerScript
@@ -25,6 +27,9 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.Advertisements.dll:
+    - UnityEngine.Advertisements.Placeholder
+    - UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -82,33 +87,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1512}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 1742}
+      Script: {instanceID: 1730}
     - Class: 114
-      Script: {instanceID: 2018}
+      Script: {instanceID: 1814}
     - Class: 114
-      Script: {instanceID: 2028}
+      Script: {instanceID: 2124}
     - Class: 114
-      Script: {instanceID: 2316}
+      Script: {instanceID: 2134}
     - Class: 114
-      Script: {instanceID: 2430}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2596}
+      Script: {instanceID: 2464}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2782}
+    - Class: 114
+      Script: {instanceID: 2832}
     - Class: 114
       Script: {instanceID: 2974}
     - Class: 114
-      Script: {instanceID: 3820}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 4084}
+      Script: {instanceID: 3074}
     - Class: 114
-      Script: {instanceID: 19270}
+      Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 30546}
+      Script: {instanceID: 4144}
+    - Class: 114
+      Script: {instanceID: 4436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,45 +188,49 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1468}
+      Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 1512}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 2028}
+      Script: {instanceID: 2134}
     - Class: 114
-      Script: {instanceID: 2108}
+      Script: {instanceID: 2224}
     - Class: 114
-      Script: {instanceID: 2316}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2404}
+      Script: {instanceID: 2464}
     - Class: 114
-      Script: {instanceID: 2430}
+      Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 2596}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2958}
     - Class: 114
       Script: {instanceID: 2974}
     - Class: 114
-      Script: {instanceID: 3000}
+      Script: {instanceID: 3074}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 3110}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 3322}
     - Class: 114
-      Script: {instanceID: 3636}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3696}
+      Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 3906}
+      Script: {instanceID: 3946}
+    - Class: 114
+      Script: {instanceID: 4014}
+    - Class: 114
+      Script: {instanceID: 4238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -311,6 +324,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 078d033d135e4ece1d73b5f4a62cf7c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenuScript
+  - hash:
+      serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -359,10 +378,28 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: c92bd8dd389c05fcfa3b1634f610e28a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MusicScript
+  - hash:
+      serializedVersion: 2
+      Hash: a325152ad9563ed900af221c132fea36
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Utilities
+    className: CoroutineExecutor
+  - hash:
+      serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 50a7f512546f0c0c65c36086174a4ddf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TypeOutScript
   - hash:
       serializedVersion: 2
       Hash: 0c2c9ffb48b3e9d6f15486181508e75b
@@ -381,6 +418,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Monetization.dll
+    namespaceName: UnityEngine.Monetization
+    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: fe64a45214940b510a0ec79c96d43498
@@ -405,6 +448,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements
+    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -435,6 +484,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 3b4e966cfe14018048f3afc1671d7733
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdsManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -485,6 +540,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParticleMenu
+  - hash:
+      serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -503,7 +564,7 @@ ScriptsOnlyBuild:
     className: PlayerRunnerScript
   - hash:
       serializedVersion: 2
-      Hash: 3efaea24c4e365e23a839f3dd232b9cf
+      Hash: dbdf46fda6de49deb87bc3624bcf0136
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -546,6 +607,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Utilities
+    className: ApplicationQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
@@ -555,6 +622,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 88e2c6f501bf5dead831a3e44c30de40
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Platform.Editor
+    className: BannerPlaceholder
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -633,6 +706,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameOverScript
+  - hash:
+      serializedVersion: 2
+      Hash: 995367f5b42ea13ec3d30643df605207
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GUIScript
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -735,32 +814,8 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 078d033d135e4ece1d73b5f4a62cf7c7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainMenuScript
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ParticleMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 995367f5b42ea13ec3d30643df605207
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GUIScript
-  - hash:
-      serializedVersion: 2
-      Hash: 50a7f512546f0c0c65c36086174a4ddf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TypeOutScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Lautaro/Desktop/end/end3.apk
+  playerPath: C:/Users/Lautaro/Desktop/end/end4.apk

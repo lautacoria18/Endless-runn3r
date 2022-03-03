@@ -7,11 +7,13 @@ public class GameOverScript : MonoBehaviour
 
     public static bool gameOver = false;
     public GameObject gameOverScreenUI;
+    private bool alreadyDead;
     // Start is called before the first frame update
     void Start()
     {
         gameOver = false;
         Time.timeScale = 1f;
+        alreadyDead = false;
     }
 
     // Update is called once per frame
@@ -20,8 +22,11 @@ public class GameOverScript : MonoBehaviour
         if (gameOver) {
             gameOverScreenUI.SetActive(true);
             Time.timeScale = 0f;
-            
-
+            if (!alreadyDead)
+            {
+                GameManager.deathCount++;
+                alreadyDead = true;
+            }
         }
     }
 

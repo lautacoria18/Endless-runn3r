@@ -111,7 +111,7 @@
 62-->Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:5-101
 63            android:name="unity.build-id"
 63-->Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:16-45
-64            android:value="64d736ba-4050-46f9-803d-84b80821aa23" />
+64            android:value="5815fd4b-2015-49d4-8d2c-f3b47b2f3552" />
 64-->Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:46-98
 65    </application>
 66

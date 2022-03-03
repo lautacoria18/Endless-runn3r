@@ -53,85 +53,133 @@
 32        android:required="false" />
 32-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
 33
-34    <application
-34-->Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:3-116
-35        android:extractNativeLibs="true"
-35-->Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:16-48
-36        android:icon="@mipmap/app_icon"
-36-->Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:82-113
-37        android:label="@string/app_name" >
-37-->Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:49-81
-38        <activity
-38-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-48:20
-39            android:name="com.unity3d.player.UnityPlayerActivity"
-39-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-66
-40            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-40-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-194
-41            android:hardwareAccelerated="false"
-41-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-48
-42            android:launchMode="singleTask"
-42-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-44
-43            android:resizeableActivity="false"
-43-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-47
-44            android:screenOrientation="portrait"
-44-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-49
-45            android:theme="@style/UnityThemeSelector" >
-45-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-54
-46            <intent-filter>
-46-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-40:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:17-69
-47-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:17-77
-49-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:27-74
-50            </intent-filter>
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:9:5-79
+34-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:9:22-76
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:10:5-67
+35-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:10:22-64
+36
+37    <application
+37-->Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:3-116
+38        android:extractNativeLibs="true"
+38-->Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:16-48
+39        android:icon="@mipmap/app_icon"
+39-->Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:82-113
+40        android:label="@string/app_name" >
+40-->Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:5:49-81
+41        <activity
+41-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-48:20
+42            android:name="com.unity3d.player.UnityPlayerActivity"
+42-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-66
+43            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+43-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-194
+44            android:hardwareAccelerated="false"
+44-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-48
+45            android:launchMode="singleTask"
+45-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-44
+46            android:resizeableActivity="false"
+46-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-47
+47            android:screenOrientation="portrait"
+47-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-49
+48            android:theme="@style/UnityThemeSelector" >
+48-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-54
+49            <intent-filter>
+49-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-40:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:17-69
+50-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:25-66
 51
-52            <meta-data
-52-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44:40
-53                android:name="unityplayer.UnityActivity"
-53-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-57
-54                android:value="true" />
-54-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:17-37
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:17-77
+52-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:27-74
+53            </intent-filter>
+54
 55            <meta-data
-55-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
-56                android:name="android.notch_support"
-56-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-53
+55-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44:40
+56                android:name="unityplayer.UnityActivity"
+56-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-57
 57                android:value="true" />
-57-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
-58        </activity>
-59
-60        <meta-data
-60-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:9-52:33
-61            android:name="unity.splash-mode"
-61-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-45
-62            android:value="0" />
-62-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-30
+57-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:17-37
+58            <meta-data
+58-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+59                android:name="android.notch_support"
+59-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-53
+60                android:value="true" />
+60-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+61        </activity>
+62
 63        <meta-data
-63-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:36
-64            android:name="unity.splash-enable"
-64-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-47
-65            android:value="True" />
-65-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-33
+63-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:9-52:33
+64            android:name="unity.splash-mode"
+64-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-45
+65            android:value="0" />
+65-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-30
 66        <meta-data
-66-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:37
-67            android:name="unity.allow-resizable-window"
-67-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-56
-68            android:value="False" />
-68-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-34
+66-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:36
+67            android:name="unity.splash-enable"
+67-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-47
+68            android:value="True" />
+68-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-33
 69        <meta-data
-69-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:50
-70            android:name="notch.config"
-70-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-40
-71            android:value="portrait|landscape" />
-71-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-47
+69-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:37
+70            android:name="unity.allow-resizable-window"
+70-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-56
+71            android:value="False" />
+71-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-34
 72        <meta-data
-72-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:68
-73            android:name="unity.build-id"
-73-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-42
-74            android:value="64d736ba-4050-46f9-803d-84b80821aa23" />
-74-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-65
-75    </application>
-76
-77</manifest>
+72-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:50
+73            android:name="notch.config"
+73-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-40
+74            android:value="portrait|landscape" />
+74-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-47
+75        <meta-data
+75-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:68
+76            android:name="unity.build-id"
+76-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-42
+77            android:value="5815fd4b-2015-49d4-8d2c-f3b47b2f3552" />
+77-->[:unityLibrary] Z:\UnityProjects\Endless runner\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-65
+78
+79        <activity
+79-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:13:9-17:74
+80            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+80-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:14:13-74
+81            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+81-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:15:13-170
+82            android:hardwareAccelerated="true"
+82-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:16:13-47
+83            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+83-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:17:13-71
+84        <activity
+84-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:18:9-22:86
+85            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+85-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:19:13-85
+86            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+86-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:20:13-170
+87            android:hardwareAccelerated="true"
+87-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:21:13-47
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+88-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:22:13-83
+89        <activity
+89-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:23:9-27:86
+90            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+90-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:24:13-93
+91            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+91-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:25:13-170
+92            android:hardwareAccelerated="false"
+92-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:26:13-48
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+93-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:27:13-83
+94        <activity
+94-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:28:9-32:74
+95            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+95-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:29:13-82
+96            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+96-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:30:13-170
+97            android:hardwareAccelerated="false"
+97-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:31:13-48
+98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+98-->[:UnityAds:] C:\Users\Lautaro\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:32:13-71
+99    </application>
+100
+101</manifest>

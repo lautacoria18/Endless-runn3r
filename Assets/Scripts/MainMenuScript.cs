@@ -7,6 +7,8 @@ public class MainMenuScript : MonoBehaviour
 {
 
     public GameObject musicButton;
+
+    public static bool audioOn = true;
     // Start is called before the first frame update
 
     void Awake() {
@@ -22,7 +24,14 @@ public class MainMenuScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+
+        if (!audioOn) {
+
+            musicButton.SetActive(false);
+        }
+
+
     }
 
 
@@ -35,14 +44,23 @@ public class MainMenuScript : MonoBehaviour
     public void Music() {
 
         if (musicButton.activeInHierarchy) {
-
+            audioOn = false;
             musicButton.SetActive(false);
 
         }
         else{
-
+            audioOn = true;
             musicButton.SetActive(true);
         }
 
+    }
+
+    public void OpenInstagram()
+    {
+        Application.OpenURL("https://www.instagram.com/lauta.coria/");
+    }
+    public void OpenMailTo()
+    {
+        Application.OpenURL("mailto:lautarocori97@gmail.com?subject=Question");
     }
 }

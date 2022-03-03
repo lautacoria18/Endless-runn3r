@@ -134,6 +134,7 @@ public class PlayerRunnerScript : MonoBehaviour
 
                 GameOverScript.gameOver = true;
                 //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+               
                 break;
 
             

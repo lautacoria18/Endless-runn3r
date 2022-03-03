@@ -5,17 +5,21 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
-    public int pesos;
+    private int pesos;
     public static GameManager inst;
-    public int maxScore;
+    private int maxScore;
 
     public Text scoreText;
     public Text maxScoreText;
+
+    public AdsManager ads;
+    public static int deathCount = 0;
 
     public void IncrementScore() {
 
         pesos++;
         scoreText.text = pesos.ToString();
+        
 
     }
 
@@ -38,6 +42,11 @@ public class GameManager : MonoBehaviour
             maxScore = pesos;
             PlayerPrefs.SetInt("maxScore", maxScore);
             maxScoreText.text = PlayerPrefs.GetInt("maxScore").ToString();
+        }
+        if (deathCount > 4) {
+
+            ads.PlayAd();
+            deathCount = 0;
         }
    
     }

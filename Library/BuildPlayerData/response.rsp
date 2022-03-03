@@ -2,6 +2,8 @@
 -a="Z:\UnityProjects\Endless runner\Library\PlayerScriptAssemblies\UnityEngine.TestRunner.dll"
 -a="Z:\UnityProjects\Endless runner\Library\PlayerScriptAssemblies\Unity.Timeline.dll"
 -a="Z:\UnityProjects\Endless runner\Library\PlayerScriptAssemblies\Unity.TextMeshPro.dll"
+-a="Z:\UnityProjects\Endless runner\Library\PlayerScriptAssemblies\UnityEngine.Monetization.dll"
+-a="Z:\UnityProjects\Endless runner\Library\PlayerScriptAssemblies\UnityEngine.Advertisements.dll"
 -a="Z:\UnityProjects\Endless runner\Library\PlayerScriptAssemblies\UnityEngine.UI.dll"
 -a="Z:\UnityProjects\Endless runner\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT\Newtonsoft.Json.dll"
 -a="Z:\UnityProjects\Endless runner\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Portable\Newtonsoft.Json.dll"
