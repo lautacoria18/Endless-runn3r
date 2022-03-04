@@ -9,6 +9,10 @@ public class MainMenuScript : MonoBehaviour
     public GameObject musicButton;
 
     public static bool audioOn = true;
+
+    public AdsManager ads;
+
+    public GameObject TrophiesPanel;
     // Start is called before the first frame update
 
     void Awake() {
@@ -37,7 +41,8 @@ public class MainMenuScript : MonoBehaviour
 
 
     public void Run() {
-        SceneManager.LoadScene("SampleScene");
+        ads.HideBanner();
+        SceneManager.LoadScene("Level");
 
     }
 
@@ -62,5 +67,15 @@ public class MainMenuScript : MonoBehaviour
     public void OpenMailTo()
     {
         Application.OpenURL("mailto:lautarocori97@gmail.com?subject=Question");
+    }
+
+    public void Trophies() {
+
+        TrophiesPanel.SetActive(true);
+
+    }
+
+    public void ReturnToTheMenu() {
+        TrophiesPanel.SetActive(false);
     }
 }

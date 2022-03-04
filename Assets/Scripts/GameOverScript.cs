@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameOverScript : MonoBehaviour
 {
-
+    public GameObject ControlsB;
     public static bool gameOver = false;
     public GameObject gameOverScreenUI;
     private bool alreadyDead;
@@ -20,6 +20,7 @@ public class GameOverScript : MonoBehaviour
     void Update()
     {
         if (gameOver) {
+            ControlsB.SetActive(false);
             gameOverScreenUI.SetActive(true);
             Time.timeScale = 0f;
             if (!alreadyDead)

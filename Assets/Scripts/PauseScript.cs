@@ -10,6 +10,8 @@ public class PauseScript : MonoBehaviour
     public GameObject pauseMenuUI;
 
     public GameObject pauseButton;
+
+    public GameObject chooseControls;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,17 +21,20 @@ public class PauseScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !GameOverScript.gameOver)
+        if (!chooseControls.activeSelf)
         {
-
-            if (GameIsPaused)
+            if (Input.GetKeyDown(KeyCode.Escape) && !GameOverScript.gameOver)
             {
 
-                Resume();
-            }
-            else
-            {
-                Pause();
+                if (GameIsPaused)
+                {
+
+                    Resume();
+                }
+                else
+                {
+                    Pause();
+                }
             }
         }
     }

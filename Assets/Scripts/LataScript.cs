@@ -6,7 +6,14 @@ public class LataScript : MonoBehaviour
 {
    
     public float turnSpeed = 200f;
- 
+
+    public int currentScore = 0;
+
+    void Start()
+    {
+        
+    }
+
     void OnTriggerEnter(Collider obj) {
 
         if (obj.gameObject.tag == "Spike")
@@ -28,21 +35,24 @@ public class LataScript : MonoBehaviour
         }
 
         GameManager.inst.IncrementScore();
-
+        PlayerPrefs.SetInt("ScoreTotal", PlayerPrefs.GetInt("ScoreTotal") + 1);
+        PlayerRunnerScript.currentScore++;
 
         Destroy(gameObject);
         
     
     }
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Update is called once per frame
     void Update()
     {
         transform.Rotate(0, turnSpeed * Time.deltaTime, 0);
+
+
+
+
+       // Debug.Log(currentScore);
     }
 }

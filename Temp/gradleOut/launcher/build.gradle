@@ -18,12 +18,12 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 30
-        applicationId 'com.DefaultCompany.Endlessrunner'
+        applicationId 'com.TinyIgloo.ColorRunner'
         ndk {
             abiFilters 'armeabi-v7a'
         }
         versionCode 1
-        versionName '0.1'
+        versionName '1.0'
     }
 
     aaptOptions {

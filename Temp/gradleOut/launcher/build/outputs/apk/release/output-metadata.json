@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.DefaultCompany.Endlessrunner",
+  "applicationId": "com.TinyIgloo.ColorRunner",
   "variantName": "release",
   "elements": [
     {
@@ -12,7 +12,7 @@
       "filters": [],
       "properties": [],
       "versionCode": 1,
-      "versionName": "0.1",
+      "versionName": "1.0",
       "enabled": true,
       "outputFile": "launcher-release.apk"
     }

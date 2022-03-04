@@ -11,7 +11,7 @@ INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\A
 INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 	package
-		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:70-112
+		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:70-105
 		INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 		INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 	android:versionName
@@ -19,7 +19,7 @@ INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\A
 		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 		INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:113-159
+		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:106-152
 	android:versionCode
 		INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
@@ -27,7 +27,7 @@ INJECTED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\A
 	xmlns:android
 		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:11-69
 	android:installLocation
-		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:160-200
+		ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:153-193
 supports-screens
 ADDED from Z:\UnityProjects\Endless runner\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:3-163
 	android:largeScreens

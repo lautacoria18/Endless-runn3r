@@ -1,4 +1,4 @@
-#Wed Mar 02 23:54:42 ART 2022
+#Fri Mar 04 16:29:34 ART 2022
 base.0=Z\:\\UnityProjects\\Endless runner\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

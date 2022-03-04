@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.unity3d.player"
     android:versionCode="1"
-    android:versionName="0.1" >
+    android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -61,7 +61,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="5815fd4b-2015-49d4-8d2c-f3b47b2f3552" />
+            android:value="6d4ad036-2d2b-48ca-a4d3-2273cdf872a5" />
     </application>
 
 </manifest>
