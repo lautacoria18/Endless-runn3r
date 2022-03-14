@@ -16,7 +16,9 @@
 
 :link:<a href="https://play.google.com/store/apps/details?id=com.TinyIgloo.ColorRunner">Click aquí para descargar Color Runner!</a>
 
-[![Alt text](https://img.youtube.com/vi/l5Ad3BRcB3U/0.jpg)](https://www.youtube.com/watch?v=l5Ad3BRcB3U)
+:tv: Gameplay
+
+[![Alt text](https://img.youtube.com/vi/l5Ad3BRcB3U/maxresdefault.jpg)](https://www.youtube.com/watch?v=l5Ad3BRcB3U)
 
 ![image](https://user-images.githubusercontent.com/42523128/158216190-f3c02d0e-fb32-4ffc-bba5-52e001220dd3.png)
 
@@ -28,4 +30,3 @@
 
 ![image](https://user-images.githubusercontent.com/42523128/158216318-259f1289-aa7d-4542-8da7-f4750d6c0e16.png)
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
