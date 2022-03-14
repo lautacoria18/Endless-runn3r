@@ -16,6 +16,8 @@
 
 :link:<a href="https://play.google.com/store/apps/details?id=com.TinyIgloo.ColorRunner">Click aquí para descargar Color Runner!</a>
 
+[![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)](https://www.youtube.com/watch?v=configuroweb)
+
 ![image](https://user-images.githubusercontent.com/42523128/158216190-f3c02d0e-fb32-4ffc-bba5-52e001220dd3.png)
 
 ![image](https://user-images.githubusercontent.com/42523128/158216214-1587f5dc-fd27-4ffe-b7be-736dc08a1b97.png)
